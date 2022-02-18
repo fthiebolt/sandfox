@@ -1,0 +1,87 @@
+<app-sidenav id="sidebar"></app-sidenav>
+<div class="containr" [ngStyle]="{
+    width: 'calc( 100vw - ' + (uiService.sidenavWidth | async) + 'px)',
+    'margin-left': (uiService.sidenavWidth | async) + 'px'
+  }">
+	<app-map *ngIf="(uiService.dashboardSelected | async)==='map'"></app-map>
+	<app-list *ngIf="(uiService.dashboardSelected | async)==='list'"
+		[style.width]="'calc( 100vw - '+ (uiService.sidenavWidth | async) + 'px)'"></app-list>
+	<app-data-viewer2></app-data-viewer2>
+	<div class="nav-container" *ngIf="(uiService.dashboardSelected|async)=='map'">
+		<div class="nav">
+			<a (click)="uiService.dashSelect('list')"
+				[class.active]="(uiService.dashboardSelected | async)==='list'">Liste</a>
+			<a (click)="uiService.dashSelect('map')"
+				[class.active]="(uiService.dashboardSelected | async)==='map'">Map</a>
+		</div>
+		<div class="btn btn-primary btn-circle p-1" (click)="toggleFilterButton()">
+			<i class="fas fa-filter"></i>
+		</div>
+		<!-- Filter button -->
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton"
+			[style.display]="(_filter|async) ? 'block': 'none'" [style.left]="'-5.75rem'">
+			<div>
+				<div class="toggle-success">
+					<input [checked]="(dataManagerService.choosedFilterLevels|async).low" (click)="toggleFilter('low')"
+						type="checkbox" id="cbx1" class="cbx" style="display:none" />
+					<label for="cbx1" class="toggle"><span></span>
+					</label>
+				</div>
+				<span class="">Faible</span>
+			</div>
+			<div>
+
+				<div class="toggle-warning">
+					<input [checked]="(dataManagerService.choosedFilterLevels|async).avg" (click)="toggleFilter('avg')"
+						type="checkbox" id="cbx2" class="cbx" style="display:none" />
+					<label for="cbx2" class="toggle"><span></span>
+					</label>
+				</div>
+				<span class="">Moyen</span>
+
+			</div>
+
+			<div>
+
+				<div class="toggle-error">
+					<input [checked]="(dataManagerService.choosedFilterLevels|async).high"
+						(click)="toggleFilter('high')" type="checkbox" id="cbx3" class="cbx" style="display:none" />
+					<label for="cbx3" class="toggle"><span></span>
+					</label>
+				</div>
+				<span class="">Elevé</span>
+
+			</div>
+		</div>
+		<!-- Info button -->
+		<div class="btn btn-circle btn-primary p-1 mt-2"
+			*ngIf="!(_info|async) && (uiService._hidden|async) && (uiService.dashboardSelected | async)==='map'"
+			(click)="toggleInfo()">
+			<i class="fas fa-info" style="color:white"></i>
+		</div>
+	</div>
+	<div class="info-card"
+		*ngIf="(_info|async) && (uiService._hidden|async) && (dataManagerService.choosedType|async) != '' && (uiService.dashboardSelected | async)==='map' &&(dataManagerService.allBuildingsLatestData|async); let buildingsData">
+		<div>
+			<div style="background: green" class="color">
+			</div>
+			~ {{(buildingsData.min| number:'1.0-2')+" "+buildingsData.unit}}
+		</div>
+		<div>
+			<div style="background: orange" class="color">
+			</div>
+			~ {{((buildingsData.max-buildingsData.min)/2 | number:'1.0-2')+" "+buildingsData.unit}}
+		</div>
+		<div>
+			<div style="background: red" class="color">
+			</div>
+			~ {{(buildingsData.max| number:'1.0-2')+" "+buildingsData.unit }}
+		</div>
+		<div (click)="toggleInfo()" class="close-btn ">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+				<path
+					d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z" />
+			</svg>
+		</div>
+	</div>
+</div>

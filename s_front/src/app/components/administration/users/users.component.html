@@ -1,0 +1,29 @@
+<table class="table table-striped table-hover">
+	<thead class="thead-dark table-bordered">
+		<tr>
+			<th>Nom et prènom</th>
+			<th>Nom d'utilisateur</th>
+			<th>Address mail</th>
+			<th>N° téléphone</th>
+			<th>Rôle</th>
+			<th>Compte activé</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr *ngFor="let user of (users|async)" [routerLink]="['/administration/user/'+user.id]">
+			<th> {{(user.first_name +' '+user.last_name)| titlecase}}</th>
+			<th>{{user.username }}</th>
+			<th>{{user.email}}</th>
+			<th>{{user.phone_number||"_"}}</th>
+			<th>{{user.role}}</th>
+			<th>
+				<ng-container *ngIf="user.activated; else notActivated">
+					<i class="fas fa-check"></i>
+				</ng-container>
+				<ng-template #notActivated>
+					<i class="fas fa-times"></i>
+				</ng-template>
+			</th>
+		</tr>
+	</tbody>
+</table>

@@ -1,0 +1,21 @@
+.text-center {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1em;
+  display: flex;
+  height: -moz-available;
+  height: -webkit-fill-available;
+  height: stretch;
+  justify-content: center;
+  flex-direction: column;
+  .form-signin {
+    label {
+      float: left;
+    }
+    .help {
+      font-size: 0.9em;
+      font-style: italic;
+    }
+  }
+}

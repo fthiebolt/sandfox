@@ -1,0 +1,30 @@
+@import "../../../styles.scss";
+.container {
+  padding-top: 1em;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  .card {
+    padding: 0;
+    border-radius: 10px;
+    min-width: initial !important;
+    .card-body {
+      color: $primary-foreground;
+      background-color: $secondary-l-background;
+      min-width: min-content;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.5s ease-out;
+      &:hover {
+        background-color: $secondary-d-background;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    .card {
+      width: 100%;
+    }
+  }
+}

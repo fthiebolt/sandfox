@@ -1,0 +1,32 @@
+.text-center {
+    width: 100%;
+    max-width: 20rem;
+    margin: 0 auto;
+    display: flex;
+    height: -moz-available;
+    height: -webkit-fill-available;
+    height: stretch;
+    justify-content: center;
+    flex-direction: column;
+    .form-signin {
+        .form-control {
+            position: relative;
+            box-sizing: border-box;
+            height: auto;
+            padding: .5rem;
+            font-size: 1rem;
+            &[name=username] {
+                border-bottom-left-radius: 0px;
+                border-bottom-right-radius: 0px;
+            }
+            &[name=password] {
+                border-bottom-right-radius: 0px;
+                border-top-left-radius: 0px;
+                border-top-right-radius: 0px;
+            }
+        }
+        .togglePassword .btn {
+            border-top-right-radius: 0px;
+        }
+    }
+}

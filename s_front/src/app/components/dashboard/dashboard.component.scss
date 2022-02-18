@@ -1,0 +1,126 @@
+@import "../../../styles.scss";
+$border-radius: 7px;
+$hover-color: #084866;
+.containr {
+  position: relative;
+  height: calc(100vh - 4rem);
+  margin-left: $sidenav-width;
+  .nav-container {
+    position: absolute;
+    right: 24px;
+    top: 12.8px;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .nav {
+      display: flex;
+      border-radius: $border-radius;
+      box-shadow: 2px 2px 10px 1px $secondary-l-background;
+      margin-bottom: 1rem;
+      a {
+        padding: 0.3rem;
+        color: $secondary-l-background;
+        border: 1px solid $secondary-l-background;
+        background-color: $primary-background;
+        text-decoration: none;
+        border-radius: $border-radius 0px 0px $border-radius;
+        cursor: pointer;
+        transition: all 0.2s ease-out;
+      }
+      a:not(:first-child) {
+        border-radius: 0px $border-radius $border-radius 0px;
+      }
+      a:not(.active):hover {
+        background-color: $hover-color;
+        color: $primary-foreground;
+      }
+      .active {
+        background-color: $secondary-l-background;
+        color: $primary-foreground;
+      }
+    }
+    .filter:hover {
+      background-color: $hover-color;
+      box-shadow: 2px 2px 10px 0px $hover-color;
+    }
+    .dropdown-menu {
+      > div {
+        display: flex;
+        justify-content: space-between;
+        width: 6rem;
+        margin: auto;
+      }
+    }
+  }
+}
+
+.info-card {
+  position: absolute;
+  background-color: $secondary-l-background;
+  color: $primary-foreground;
+  bottom: 1rem;
+  padding: 1.5rem;
+  left: 1rem;
+  z-index: 1000;
+  width: fit-content;
+
+  border-radius: 1rem;
+  > div {
+    padding-left: 1rem;
+    position: relative;
+    padding: 0.5rem 1rem;
+    .color {
+      position: absolute;
+      width: 1rem;
+      height: 1rem;
+      left: -0.5rem;
+      top: 0.75rem;
+      border-radius: 5px;
+    }
+  }
+  .close-btn {
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    padding: 0.25rem;
+    border-radius: 100%;
+    cursor: pointer;
+    svg {
+      height: 0.75rem;
+      * {
+        fill: $primary-background;
+      }
+    }
+    &:hover {
+      background-color: rgba($primary-background, 0.5);
+    }
+  }
+}
+.btn-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .fas {
+    font-size: 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0.2rem;
+  }
+}
+#sidebar {
+  // width: $sidenav-width;
+  height: calc(100vh - #{$header-height});
+  position: fixed;
+  left: 0;
+  top: $header-height;
+  color: $primary-foreground;
+  background-color: $secondary-l-background;
+  z-index: 1500;
+}
+
+.graph {
+  overflow: hidden;
+}

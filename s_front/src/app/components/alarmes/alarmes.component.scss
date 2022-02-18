@@ -1,0 +1,73 @@
+@import "../../../styles.scss";
+.table {
+  text-align: center;
+  font-weight: 500;
+  .thead-dark,
+  .thead-dark th {
+    background-color: $secondary-l-background !important;
+  }
+  tbody tr {
+    cursor: pointer;
+    th {
+      font-weight: 400 !important;
+    }
+  }
+}
+
+.center {
+  width: 100%;
+  // max-width: 20rem;
+  margin: 0 auto;
+  background-color: rgba(40, 40, 40, 0.4);
+  display: flex;
+  height: -moz-available;
+  height: -webkit-fill-available;
+  height: stretch;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2000;
+  overflow: hidden;
+  .alert-box {
+    // position: absolute;
+    height: auto;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    color: $primary-foreground;
+    background-color: $secondary-l-background;
+    box-shadow: 0 0 1rem rgba(20, 20, 20, 0.6);
+    border-radius: 0.5rem;
+    .close {
+      color: $primary-background;
+    }
+    .notifs {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      .row {
+        align-items: baseline;
+        label {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+    .modal-footer {
+      > div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .popupToggled {
+    display: none;
+  }
+}

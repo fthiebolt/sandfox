@@ -1,0 +1,66 @@
+<div class="text-center pt-4 container">
+	<form [formGroup]="userUpdate" (ngSubmit)="onSubmit()" method="POST">
+		<div class="row m-1">
+
+			<div class="col-sm">
+
+				<label for="firstName">Prénom</label>
+				<input type="text" value="firstName" formControlName="firstName" placeholder="prènom"
+					class="form-control" autofocus>
+			</div>
+			<div class="col-sm">
+				<label for="lastName">Nom</label>
+				<input type="text" value="lastName" formControlName="lastName" placeholder="Nom" class="form-control">
+			</div>
+			<div class="col-sm">
+				<label for="phoneNumber"><i class="fas fa-phone pr-1"></i> N° téléphone</label>
+				<input type="text" value="phoneNumber" formControlName="phoneNumber" placeholder="N° téléphone"
+					class="form-control">
+			</div>
+		</div>
+		<div class="row m-1 mt-3">
+			<div class="col-sm">
+				<label for="username"><i class="fas fa-user"></i> Nom
+					d'utilisateur</label>
+				<input type="text" value="username" formControlName="username" placeholder="Nom d'utilisateur"
+					class="form-control">
+			</div>
+			<div class="col-sm">
+				<label for="role"><i class="fas fa-user-shield pr-1"></i>Rôle</label>
+				<select name="role" formControlName="role" class="form-control">
+					<option value="administrator">Administrateur</option>
+					<option value="user">Utilisateur</option>
+				</select>
+			</div>
+			<div class="col-sm aligne-vertical">
+
+				<label for="activated"><i class="fas fa-user-lock pr-1"></i> Compte Activé</label>
+				<div class="toggle-default">
+					<input value="activated" formControlName="activated" type="checkbox" id="cbx1" class="cbx"
+						style="display:none" />
+					<label for="cbx1" class="toggle"><span></span>
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="row m-1 mt-3">
+			<div class="col-sm-8">
+				<label for="email"><i class="fas fa-envelope pr-1"></i> Adresse mail</label>
+				<input type="text" value="email" formControlName="email" placeholder="prènom" class="form-control">
+			</div>
+			<div class="col-sm aligne-vertical">
+				<button type="button" class="btn btn-warning" (click)="resetPassword()">Réinitialiser le mot de
+					passe</button>
+			</div>
+		</div>
+		<div class="btns p-3">
+			<button type="button" class="btn btn-danger ml-1" (click)="onDelete()">Supprimer</button>
+			<div>
+				<button type="button" class="btn btn-secondary"
+					[routerLink]="['/administration/users']">Annuler</button>
+				<button type="button" class="btn btn-primary ml-3" (click)="onSubmit()"
+					[disabled]="!(userFormIsChanged|async)">Modifier</button>
+			</div>
+		</div>
+	</form>
+</div>

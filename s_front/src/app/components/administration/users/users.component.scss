@@ -1,0 +1,14 @@
+@import "../../../../styles.scss";
+.table {
+  text-align: center;
+  .thead-dark,
+  .thead-dark th {
+    background-color: $secondary-l-background !important;
+  }
+  tbody tr {
+    cursor: pointer;
+    th {
+      font-weight: 400 !important;
+    }
+  }
+}
