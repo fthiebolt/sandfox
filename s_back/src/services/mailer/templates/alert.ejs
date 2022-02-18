@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<title>Une nouvelle alerte</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		:root {
+			background-color: rgb(235, 235, 235);
+			--background-light: #194052;
+			--background-dark: #091A23;
+			--background-primary: rgb(235, 235, 235);
+		}
+
+		.container {
+			height: fit-content;
+			width: 600px;
+			color: rgb(20, 20, 20);
+			background: var(--background-primary);
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			margin: auto;
+		}
+
+		.btn {
+			text-decoration: none;
+			color: rgb(235, 235, 235);
+			padding: .75rem;
+			border-radius: .5rem;
+			background-color: var(--background-light);
+			margin: auto;
+			transition: all .5s ease-out;
+		}
+
+		.btn:hover,
+		.btn:focus {
+			background-color: var(--background-dark);
+		}
+
+		@media (max-device-width: 600px) {
+			:root {
+				font-size: 8px;
+			}
+
+			.container {
+				width: 300px;
+			}
+
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="container">
+		<a href="<%=process.env.FRONT_HOST%>"><img src="<%=process.env.FRONT_HOST%>/assets/icons/logo_sandfox.png"
+				style='width:15rem;height:auto;display: block;margin-right:auto;padding: 1rem;'></a>
+		<h1>Une alerte d'energie</h1>
+		<h3>Bonjour
+			<%= user.first_name %>,</h3>
+		<p>
+			Vous avez une nouvelle alert d'energie, vouillez consulter votre tableau de bord:
+			<br>
+			<br>
+			<a href="<%=process.env.FRONT_HOST%>" class="btn">Consulter le tableau de bord</a>
+			<br>
+			<span class="gray">
+				En cas de problème, vouillez contacter le responsable.
+			</span>
+			<br>
+			<br>
+			<br>
+			Cordialement,
+		</p>
+	</div>
+</body>
+
+</html>
