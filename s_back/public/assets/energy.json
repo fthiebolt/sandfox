@@ -1,0 +1,5256 @@
+[
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:09:40.633000",
+    "payload": {
+      "value": [
+        0.9683569669723511,
+        5.850437641143799,
+        5646.37646484375,
+        38.66223907470703,
+        33.36187744140625,
+        5.297298431396484
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:09:40.854000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        230.75,
+        0.043000000000000003,
+        0,
+        10,
+        10,
+        0.151
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:09:41.111000",
+    "payload": {
+      "value": [
+        1039335,
+        1039330,
+        230.57,
+        0.809,
+        110,
+        150,
+        190,
+        0.5760000000000001
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:09:41.394000",
+    "payload": {
+      "value": [
+        654054,
+        654050,
+        231.08,
+        0.423,
+        100,
+        0,
+        100,
+        0.994
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:09:53.103000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.308751106262207,
+        0,
+        1588.3238525390625,
+        39.0731201171875,
+        38.727962493896484,
+        0.3390846252441406
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:09:53.332000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        230.22,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:10:12.883000",
+    "payload": {
+      "value": [
+        2.7679738998413086,
+        0,
+        5646.42626953125,
+        38.63492965698242,
+        33.3529167175293,
+        5.273448944091797
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:10:13.107000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        230.38,
+        0.043000000000000003,
+        0,
+        10,
+        10,
+        0.14100000000000001
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:10:13.327000",
+    "payload": {
+      "value": [
+        1039336,
+        1039330,
+        229.75,
+        0.807,
+        110,
+        150,
+        190,
+        0.579
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:10:13.586000",
+    "payload": {
+      "value": [
+        654054,
+        654050,
+        230.14000000000001,
+        0.419,
+        100,
+        0,
+        100,
+        0.993
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:10:24.462000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.3214914798736572,
+        0,
+        1588.3238525390625,
+        39.05860900878906,
+        38.72390365600586,
+        0.3347053527832031
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:10:24.691000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.14000000000001,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:10:45.132000",
+    "payload": {
+      "value": [
+        3.679044008255005,
+        0,
+        5646.42626953125,
+        38.57892608642578,
+        33.337703704833984,
+        5.241222381591797
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:10:45.353000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.44,
+        0.043000000000000003,
+        0,
+        10,
+        10,
+        0.14400000000000002
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:10:45.611000",
+    "payload": {
+      "value": [
+        1039337,
+        1039330,
+        230.4,
+        0.807,
+        110,
+        150,
+        190,
+        0.577
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:10:45.870000",
+    "payload": {
+      "value": [
+        654055,
+        654050,
+        231.19,
+        0.423,
+        100,
+        0,
+        100,
+        0.993
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:10:55.820000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.2951613664627075,
+        0,
+        1588.3238525390625,
+        39.03841018676758,
+        38.731937408447266,
+        0.3064727783203125
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:10:56.050000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.70000000000002,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:11:17.300000",
+    "payload": {
+      "value": [
+        4.614530086517334,
+        0,
+        5646.42626953125,
+        38.52285385131836,
+        33.30934143066406,
+        5.213512420654297
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:11:17.520000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.71,
+        0.044,
+        0,
+        10,
+        10,
+        0.156
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:11:17.779000",
+    "payload": {
+      "value": [
+        1039338,
+        1039330,
+        230.23000000000002,
+        0.807,
+        110,
+        150,
+        190,
+        0.578
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:11:18.042000",
+    "payload": {
+      "value": [
+        654056,
+        654050,
+        231.31,
+        0.421,
+        100,
+        0,
+        100,
+        0.993
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:11:27.185000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.2941540479660034,
+        0,
+        1588.3238525390625,
+        38.992279052734375,
+        38.68170928955078,
+        0.31056976318359375
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:11:27.406000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        232.14000000000001,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:11:49.589000",
+    "payload": {
+      "value": [
+        0.6801264882087708,
+        0,
+        5646.42626953125,
+        38.498653411865234,
+        33.26100158691406,
+        5.240657806396484
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:11:49.811000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.54,
+        0.044,
+        0,
+        10,
+        10,
+        0.163
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:11:50.069000",
+    "payload": {
+      "value": [
+        1039339,
+        1039330,
+        230.26,
+        0.809,
+        110,
+        150,
+        190,
+        0.579
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:11:50.328000",
+    "payload": {
+      "value": [
+        654057,
+        654050,
+        230.87,
+        0.421,
+        100,
+        0,
+        100,
+        0.994
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:11:58.564000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.2962905168533325,
+        0,
+        1588.3238525390625,
+        38.92277908325195,
+        38.61962890625,
+        0.3031501770019531
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:11:58.794000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.8,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:12:21.864000",
+    "payload": {
+      "value": [
+        0.8337518572807312,
+        0,
+        5646.44091796875,
+        38.50700378417969,
+        33.25632095336914,
+        5.257259368896484
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:12:22.092000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.42000000000002,
+        0.043000000000000003,
+        0,
+        10,
+        10,
+        0.149
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:12:22.290000",
+    "payload": {
+      "value": [
+        1039340,
+        1039340,
+        229.86,
+        0.81,
+        110,
+        150,
+        190,
+        0.581
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:12:22.539000",
+    "payload": {
+      "value": [
+        654058,
+        654050,
+        230.71,
+        0.419,
+        100,
+        0,
+        100,
+        0.994
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:12:29.928000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.2989635467529297,
+        0,
+        1588.3238525390625,
+        38.90401077270508,
+        38.55063247680664,
+        0.3425178527832031
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:12:30.138000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.51,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:12:54.091000",
+    "payload": {
+      "value": [
+        1.5472638607025146,
+        0,
+        5646.44921875,
+        38.53285598754883,
+        33.241668701171875,
+        5.291187286376953
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:12:54.309000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.67000000000002,
+        0.043000000000000003,
+        0,
+        10,
+        10,
+        0.149
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:12:54.569000",
+    "payload": {
+      "value": [
+        1039341,
+        1039340,
+        230.57,
+        0.809,
+        110,
+        150,
+        190,
+        0.578
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:12:54.897000",
+    "payload": {
+      "value": [
+        654059,
+        654050,
+        231.17000000000002,
+        0.423,
+        100,
+        0,
+        100,
+        0.993
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:13:01.291000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.2942394018173218,
+        0,
+        1588.3238525390625,
+        38.90713882446289,
+        38.522891998291016,
+        0.384246826171875
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:13:01.520000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.72,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:13:26.379000",
+    "payload": {
+      "value": [
+        1.869415283203125,
+        14.050015449523926,
+        5646.4990234375,
+        38.580509185791016,
+        33.23910903930664,
+        5.341400146484375
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:13:26.601000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        232.1,
+        0.044,
+        0,
+        10,
+        10,
+        0.161
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:13:26.851000",
+    "payload": {
+      "value": [
+        1039342,
+        1039340,
+        230.32,
+        0.812,
+        110,
+        150,
+        190,
+        0.577
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:13:27.110000",
+    "payload": {
+      "value": [
+        654060,
+        654060,
+        230.94,
+        0.421,
+        100,
+        0,
+        100,
+        0.994
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:13:32.650000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.2888386249542236,
+        0,
+        1588.3238525390625,
+        38.88798522949219,
+        38.536380767822266,
+        0.3516044616699219
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:13:32.879000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        232.01,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:13:58.616000",
+    "payload": {
+      "value": [
+        3.200875759124756,
+        19.716405868530273,
+        5646.55126953125,
+        38.688720703125,
+        33.28478240966797,
+        5.400825500488281
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:13:58.837000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        230.94,
+        0.044,
+        0,
+        10,
+        10,
+        0.151
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:13:59.095000",
+    "payload": {
+      "value": [
+        1039343,
+        1039340,
+        229.67000000000002,
+        0.807,
+        110,
+        150,
+        190,
+        0.58
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:13:59.387000",
+    "payload": {
+      "value": [
+        654061,
+        654060,
+        230.12,
+        0.419,
+        100,
+        0,
+        100,
+        0.994
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:14:04.016000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.2905935049057007,
+        0,
+        1588.3238525390625,
+        38.93086624145508,
+        38.52803039550781,
+        0.4027557373046875
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:14:04.245000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        230.70000000000002,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:14:30.855000",
+    "payload": {
+      "value": [
+        0.9278185367584229,
+        0,
+        5646.587890625,
+        38.67685317993164,
+        33.30735397338867,
+        5.365802764892578
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:14:31.074000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        230.63,
+        0.043000000000000003,
+        0,
+        10,
+        10,
+        0.187
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:14:31.334000",
+    "payload": {
+      "value": [
+        1039344,
+        1039340,
+        230.11,
+        0.811,
+        110,
+        150,
+        190,
+        0.581
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:14:31.622000",
+    "payload": {
+      "value": [
+        654061,
+        654060,
+        230.02,
+        0.419,
+        100,
+        0,
+        100,
+        0.994
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:14:35.375000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.3036004304885864,
+        0,
+        1588.3238525390625,
+        38.996612548828125,
+        38.57740783691406,
+        0.4192047119140625
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:14:35.587000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:15:03.095000",
+    "payload": {
+      "value": [
+        0.8380914926528931,
+        0,
+        5646.587890625,
+        38.632389068603516,
+        33.35297393798828,
+        5.279415130615234
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:15:03.319000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.4,
+        0.043000000000000003,
+        0,
+        10,
+        10,
+        0.15
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:15:03.649000",
+    "payload": {
+      "value": [
+        1039345,
+        1039340,
+        231.03,
+        0.809,
+        110,
+        150,
+        190,
+        0.5760000000000001
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:15:03.844000",
+    "payload": {
+      "value": [
+        654062,
+        654060,
+        230.71,
+        0.419,
+        100,
+        0,
+        100,
+        0.994
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:15:06.736000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.2993433475494385,
+        0,
+        1588.3238525390625,
+        39.04627990722656,
+        38.64848327636719,
+        0.397796630859375
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:15:06.964000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.64000000000001,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:15:35.341000",
+    "payload": {
+      "value": [
+        3.184051990509033,
+        0,
+        5646.58837890625,
+        38.69905471801758,
+        33.34670639038086,
+        5.352348327636719
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:15:35.563000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231,
+        0.043000000000000003,
+        0,
+        10,
+        10,
+        0.14
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:15:35.822000",
+    "payload": {
+      "value": [
+        1039346,
+        1039340,
+        230.69,
+        0.811,
+        110,
+        150,
+        190,
+        0.5750000000000001
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:15:36.082000",
+    "payload": {
+      "value": [
+        654063,
+        654060,
+        230.39000000000001,
+        0.422,
+        100,
+        0,
+        100,
+        0.994
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:15:38.100000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.287912130355835,
+        0,
+        1588.3238525390625,
+        39.03365707397461,
+        38.69907760620117,
+        0.3468055725097656
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:15:38.372000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.41,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:16:07.513000",
+    "payload": {
+      "value": [
+        5.210649013519287,
+        0,
+        5646.58837890625,
+        38.76789093017578,
+        33.328094482421875,
+        5.439796447753906
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:16:07.733000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.77,
+        0.045,
+        0,
+        10,
+        10,
+        0.17200000000000001
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:16:07.993000",
+    "payload": {
+      "value": [
+        1039347,
+        1039340,
+        230.36,
+        0.807,
+        110,
+        150,
+        190,
+        0.579
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:16:08.307000",
+    "payload": {
+      "value": [
+        654064,
+        654060,
+        230.08,
+        0.421,
+        100,
+        0,
+        100,
+        0.993
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:16:09.477000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.2988330125808716,
+        0,
+        1588.3238525390625,
+        39.02934646606445,
+        38.66148376464844,
+        0.3678627014160156
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:16:09.704000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.70000000000002,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:16:39.807000",
+    "payload": {
+      "value": [
+        5.076937198638916,
+        0,
+        5646.58837890625,
+        38.8023567199707,
+        33.38832473754883,
+        5.412925720214844
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:16:40.029000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.42000000000002,
+        0.043000000000000003,
+        0,
+        10,
+        10,
+        0.16
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:16:40.287000",
+    "payload": {
+      "value": [
+        1039348,
+        1039340,
+        229.86,
+        0.805,
+        110,
+        150,
+        190,
+        0.584
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:16:40.548000",
+    "payload": {
+      "value": [
+        654065,
+        654060,
+        230.52,
+        0.421,
+        100,
+        0,
+        100,
+        0.993
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:16:40.842000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.2914562225341797,
+        0,
+        1588.3238525390625,
+        39.084991455078125,
+        38.68916702270508,
+        0.3935394287109375
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:16:41.072000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.57,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:17:12.095000",
+    "payload": {
+      "value": [
+        5.004065990447998,
+        0,
+        5646.58837890625,
+        38.83951950073242,
+        33.40689468383789,
+        5.432624816894531
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:17:12.250000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.292600154876709,
+        0,
+        1588.3238525390625,
+        39.13642120361328,
+        38.75944900512695,
+        0.3769721984863281
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:17:12.378000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.54,
+        0.044,
+        0,
+        10,
+        10,
+        0.157
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:17:12.432000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.68,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:17:12.585000",
+    "payload": {
+      "value": [
+        1039349,
+        1039340,
+        229.57,
+        0.804,
+        110,
+        150,
+        180,
+        0.582
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:17:12.841000",
+    "payload": {
+      "value": [
+        654066,
+        654060,
+        230.35,
+        0.423,
+        100,
+        0,
+        100,
+        0.994
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:17:43.642000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.2912843227386475,
+        0,
+        1588.3238525390625,
+        39.15964889526367,
+        38.817832946777344,
+        0.3418159484863281
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:17:43.867000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.74,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:17:44.302000",
+    "payload": {
+      "value": [
+        1.5220361948013306,
+        11.7495698928833,
+        5646.59423828125,
+        38.84867477416992,
+        33.45222091674805,
+        5.396453857421875
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:17:44.522000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.69,
+        0.044,
+        0,
+        10,
+        10,
+        0.13
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:17:44.782000",
+    "payload": {
+      "value": [
+        1039350,
+        1039350,
+        229.69,
+        0.807,
+        110,
+        150,
+        190,
+        0.584
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:17:45.045000",
+    "payload": {
+      "value": [
+        654067,
+        654060,
+        230.37,
+        0.421,
+        100,
+        0,
+        100,
+        0.993
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:18:15.042000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.2884433269500732,
+        0,
+        1588.3238525390625,
+        39.212791442871094,
+        38.8472785949707,
+        0.3614463806152344
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:18:15.272000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.55,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:18:16.566000",
+    "payload": {
+      "value": [
+        1.0526376962661743,
+        0,
+        5646.68701171875,
+        38.759437561035156,
+        33.485870361328125,
+        5.302059173583984
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:18:16.787000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.54,
+        0.043000000000000003,
+        0,
+        10,
+        10,
+        0.132
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:18:17.115000",
+    "payload": {
+      "value": [
+        1039351,
+        1039350,
+        229.84,
+        0.806,
+        110,
+        150,
+        190,
+        0.581
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:18:17.309000",
+    "payload": {
+      "value": [
+        654067,
+        654060,
+        230.45000000000002,
+        0.421,
+        100,
+        0,
+        100,
+        0.994
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:18:46.499000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.2966607809066772,
+        0,
+        1588.3238525390625,
+        39.209373474121094,
+        38.87890625,
+        0.33046722412109375
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:18:46.656000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        232.01,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:18:48.746000",
+    "payload": {
+      "value": [
+        1.1013572216033936,
+        0,
+        5646.724609375,
+        38.730995178222656,
+        33.47197723388672,
+        5.250904083251953
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:18:48.966000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.94,
+        0.044,
+        0,
+        10,
+        10,
+        0.126
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:18:49.225000",
+    "payload": {
+      "value": [
+        1039352,
+        1039350,
+        230.49,
+        0.806,
+        110,
+        150,
+        190,
+        0.58
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:18:49.485000",
+    "payload": {
+      "value": [
+        654068,
+        654060,
+        231.12,
+        0.422,
+        100,
+        0,
+        100,
+        0.994
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:19:17.758000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.3044275045394897,
+        0,
+        1588.3238525390625,
+        39.13123321533203,
+        38.84417724609375,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:19:17.988000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        232.03,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:19:21.050000",
+    "payload": {
+      "value": [
+        3.3601436614990234,
+        20.20461654663086,
+        5646.7470703125,
+        38.7132568359375,
+        33.429439544677734,
+        5.284046173095703
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:19:21.270000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.48000000000002,
+        0.043000000000000003,
+        0,
+        10,
+        10,
+        0.164
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:19:21.529000",
+    "payload": {
+      "value": [
+        1039353,
+        1039350,
+        230.42000000000002,
+        0.806,
+        110,
+        150,
+        190,
+        0.581
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:19:21.793000",
+    "payload": {
+      "value": [
+        654069,
+        654060,
+        231.08,
+        0.422,
+        100,
+        0,
+        100,
+        0.994
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:19:49.145000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.294972538948059,
+        0,
+        1588.3238525390625,
+        39.08729934692383,
+        38.784942626953125,
+        0.3145599365234375
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:19:49.376000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.74,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:19:53.327000",
+    "payload": {
+      "value": [
+        3.511115550994873,
+        0,
+        5646.78125,
+        38.72952651977539,
+        33.43365478515625,
+        5.295871734619141
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:19:53.547000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.58,
+        0.043000000000000003,
+        0,
+        10,
+        10,
+        0.17200000000000001
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:19:53.806000",
+    "payload": {
+      "value": [
+        1039354,
+        1039350,
+        230.42000000000002,
+        0.807,
+        110,
+        150,
+        190,
+        0.579
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:19:54.064000",
+    "payload": {
+      "value": [
+        654070,
+        654070,
+        231,
+        0.421,
+        100,
+        0,
+        100,
+        0.994
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:20:20.502000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.324461817741394,
+        0,
+        1588.3238525390625,
+        39.0667839050293,
+        38.728511810302734,
+        0.3382720947265625
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:20:20.731000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.51,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:20:25.540000",
+    "payload": {
+      "value": [
+        3.309511184692383,
+        0,
+        5646.78125,
+        38.795780181884766,
+        33.40296173095703,
+        5.3922119140625
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:20:25.760000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.25,
+        0.044,
+        0,
+        10,
+        10,
+        0.147
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:20:26.019000",
+    "payload": {
+      "value": [
+        1039355,
+        1039350,
+        230.34,
+        0.806,
+        110,
+        150,
+        190,
+        0.58
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:20:26.278000",
+    "payload": {
+      "value": [
+        654071,
+        654070,
+        230.64000000000001,
+        0.422,
+        100,
+        0,
+        100,
+        0.994
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:20:51.929000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.3462892770767212,
+        0,
+        1588.3238525390625,
+        39.08557891845703,
+        38.7159538269043,
+        0.3781700134277344
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:20:52.153000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        230.99,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:20:57.832000",
+    "payload": {
+      "value": [
+        7.811967372894287,
+        0,
+        5646.7890625,
+        38.83671188354492,
+        33.43890380859375,
+        5.3846588134765625
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:20:58.051000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        230.79,
+        0.043000000000000003,
+        0,
+        10,
+        10,
+        0.155
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:20:58.311000",
+    "payload": {
+      "value": [
+        1039356,
+        1039350,
+        230.21,
+        0.805,
+        110,
+        150,
+        190,
+        0.58
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:20:58.664000",
+    "payload": {
+      "value": [
+        654072,
+        654070,
+        230.5,
+        0.421,
+        100,
+        0,
+        100,
+        0.993
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:21:23.340000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.3323959112167358,
+        0,
+        1588.3238525390625,
+        39.16291427612305,
+        38.77957534790039,
+        0.38333892822265625
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:21:23.569000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.01,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:21:30.032000",
+    "payload": {
+      "value": [
+        0.3133717179298401,
+        1.9130419492721558,
+        5646.83837890625,
+        38.87079620361328,
+        33.511207580566406,
+        5.340232849121094
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:21:30.235000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        230.63,
+        0.043000000000000003,
+        0,
+        10,
+        10,
+        0.131
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:21:30.495000",
+    "payload": {
+      "value": [
+        1039356,
+        1039350,
+        230.07,
+        0.807,
+        110,
+        150,
+        190,
+        0.581
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:21:30.756000",
+    "payload": {
+      "value": [
+        654073,
+        654070,
+        230.14000000000001,
+        0.419,
+        100,
+        0,
+        100,
+        0.994
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:21:54.700000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.3409090042114258,
+        0,
+        1588.3238525390625,
+        39.192752838134766,
+        38.873661041259766,
+        0.319091796875
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:21:54.929000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.66,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:22:02.295000",
+    "payload": {
+      "value": [
+        5.595369338989258,
+        0,
+        5646.83837890625,
+        38.86027908325195,
+        33.53815841674805,
+        5.322120666503906
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:22:02.513000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.81,
+        0.043000000000000003,
+        0,
+        10,
+        10,
+        0.148
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:22:02.774000",
+    "payload": {
+      "value": [
+        1039357,
+        1039350,
+        230.19,
+        0.807,
+        110,
+        150,
+        190,
+        0.577
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:22:03.034000",
+    "payload": {
+      "value": [
+        654074,
+        654070,
+        229.85,
+        0.421,
+        100,
+        0,
+        100,
+        0.994
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:22:26.066000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.3432917594909668,
+        0,
+        1588.3238525390625,
+        39.2094612121582,
+        38.89630889892578,
+        0.3074226379394531
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:22:26.296000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.68,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:22:34.586000",
+    "payload": {
+      "value": [
+        4.0495781898498535,
+        0,
+        5646.83837890625,
+        38.870948791503906,
+        33.56205368041992,
+        5.320365905761719
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:22:34.810000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.46,
+        0.044,
+        0,
+        10,
+        10,
+        0.155
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:22:35.068000",
+    "payload": {
+      "value": [
+        1039358,
+        1039350,
+        230.23000000000002,
+        0.807,
+        110,
+        150,
+        190,
+        0.58
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:22:35.405000",
+    "payload": {
+      "value": [
+        654074,
+        654070,
+        230.6,
+        0.422,
+        100,
+        0,
+        100,
+        0.994
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:22:57.428000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.3410876989364624,
+        0,
+        1588.3238525390625,
+        39.22550582885742,
+        38.88340377807617,
+        0.34210205078125
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:22:57.656000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        232.16,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:23:06.761000",
+    "payload": {
+      "value": [
+        4.781704425811768,
+        0,
+        5646.83837890625,
+        38.89400863647461,
+        33.605472564697266,
+        5.278568267822266
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:23:06.982000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        232.23000000000002,
+        0.044,
+        0,
+        10,
+        10,
+        0.133
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:23:07.242000",
+    "payload": {
+      "value": [
+        1039359,
+        1039350,
+        229.82,
+        0.805,
+        110,
+        150,
+        190,
+        0.582
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:23:07.503000",
+    "payload": {
+      "value": [
+        654075,
+        654070,
+        231,
+        0.422,
+        100,
+        0,
+        100,
+        0.994
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:23:28.803000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.3375619649887085,
+        0,
+        1588.3238525390625,
+        39.23649597167969,
+        38.91132354736328,
+        0.32517242431640625
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:23:29.032000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.57,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:23:39.048000",
+    "payload": {
+      "value": [
+        4.48241662979126,
+        0,
+        5646.83837890625,
+        38.89018249511719,
+        33.62266159057617,
+        5.266101837158203
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:23:39.270000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.67000000000002,
+        0.043000000000000003,
+        0,
+        10,
+        10,
+        0.156
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:23:39.531000",
+    "payload": {
+      "value": [
+        1039360,
+        1039360,
+        229.84,
+        0.805,
+        110,
+        150,
+        180,
+        0.583
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:23:39.793000",
+    "payload": {
+      "value": [
+        654076,
+        654070,
+        230.96,
+        0.422,
+        100,
+        0,
+        100,
+        0.993
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:24:00.169000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.3315887451171875,
+        0,
+        1588.3238525390625,
+        39.25118637084961,
+        38.92355728149414,
+        0.3310089111328125
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:24:00.398000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.70000000000002,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:24:11.223000",
+    "payload": {
+      "value": [
+        2.6408112049102783,
+        0,
+        5646.83837890625,
+        38.894561767578125,
+        33.64518737792969,
+        5.2493743896484375
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:24:11.444000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.73000000000002,
+        0.044,
+        0,
+        10,
+        10,
+        0.153
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:24:11.704000",
+    "payload": {
+      "value": [
+        1039361,
+        1039360,
+        230.07,
+        0.804,
+        110,
+        150,
+        180,
+        0.58
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:24:11.964000",
+    "payload": {
+      "value": [
+        654077,
+        654070,
+        230.75,
+        0.422,
+        100,
+        0,
+        100,
+        0.993
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:24:31.527000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.3303041458129883,
+        0,
+        1588.3238525390625,
+        39.26727294921875,
+        38.92124938964844,
+        0.3460235595703125
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:24:31.758000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.66,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:24:43.510000",
+    "payload": {
+      "value": [
+        6.6889777183532715,
+        0,
+        5646.83837890625,
+        38.90846252441406,
+        33.635009765625,
+        5.2734527587890625
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:24:43.732000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.38,
+        0.044,
+        0,
+        10,
+        10,
+        0.166
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:24:44.027000",
+    "payload": {
+      "value": [
+        1039362,
+        1039360,
+        230.21,
+        0.805,
+        110,
+        150,
+        190,
+        0.58
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:24:44.260000",
+    "payload": {
+      "value": [
+        654078,
+        654070,
+        231.02,
+        0.421,
+        100,
+        0,
+        100,
+        0.994
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:25:02.893000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.3290770053863525,
+        0,
+        1588.3238525390625,
+        39.253021240234375,
+        38.94236755371094,
+        0.3231391906738281
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:25:03.124000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.24,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:25:15.818000",
+    "payload": {
+      "value": [
+        6.806472301483154,
+        0,
+        5646.83837890625,
+        38.922569274902344,
+        33.63315200805664,
+        5.291736602783203
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:25:16.038000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.21,
+        0.044,
+        0,
+        10,
+        10,
+        0.125
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:25:16.297000",
+    "payload": {
+      "value": [
+        1039363,
+        1039360,
+        230.4,
+        0.805,
+        110,
+        150,
+        190,
+        0.578
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:25:16.557000",
+    "payload": {
+      "value": [
+        654079,
+        654070,
+        231.19,
+        0.422,
+        100,
+        0,
+        100,
+        0.994
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:25:34.253000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.3263039588928223,
+        0,
+        1588.3238525390625,
+        39.26532745361328,
+        38.95555877685547,
+        0.3097686767578125
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:25:34.482000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.88,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:25:47.993000",
+    "payload": {
+      "value": [
+        13.407927513122559,
+        0,
+        5646.83837890625,
+        38.96657943725586,
+        33.65788269042969,
+        5.2937774658203125
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:25:48.214000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        231.02,
+        0.043000000000000003,
+        0,
+        10,
+        10,
+        0.157
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:25:48.472000",
+    "payload": {
+      "value": [
+        1039364,
+        1039360,
+        229.63,
+        0.804,
+        110,
+        150,
+        180,
+        0.582
+      ],
+      "unitID": "modbus_rs485",
+      "input": 65,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises2"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:25:48.732000",
+    "payload": {
+      "value": [
+        654080,
+        654080,
+        230.52,
+        0.422,
+        100,
+        0,
+        100,
+        0.994
+      ],
+      "unitID": "modbus_rs485",
+      "input": 62,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises3"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:26:05.607000",
+    "payload": {
+      "input": 1,
+      "subID": "heaters",
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "value": [
+        1.3339492082595825,
+        0,
+        1588.3238525390625,
+        39.2852783203125,
+        38.94984817504883,
+        0.3354301452636719
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/301/energy",
+    "date": "2017-12-14T14:26:05.838000",
+    "payload": {
+      "input": 78,
+      "subID": "lighting",
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "value": [
+        104583,
+        104580,
+        231.61,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unitID": "modbus_rs485"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:26:20.284000",
+    "payload": {
+      "value": [
+        13.503440856933594,
+        0,
+        5646.83837890625,
+        38.996219635009766,
+        33.64533233642578,
+        5.350887298583984
+      ],
+      "unitID": "modbus_rs485",
+      "input": 1,
+      "value_units": [
+        "m3/hr",
+        "kW",
+        "kWh",
+        "hot_degresC",
+        "cold_degresC",
+        "diff_degresC"
+      ],
+      "subID": "chauffage"
+    }
+  },
+  {
+    "topic": "u4/302/energy",
+    "date": "2017-12-14T14:26:20.505000",
+    "payload": {
+      "value": [
+        54199,
+        54190,
+        232.37,
+        0.043000000000000003,
+        0,
+        10,
+        10,
+        0.157
+      ],
+      "unitID": "modbus_rs485",
+      "input": 88,
+      "value_units": [
+        "Wh",
+        "Ea+",
+        "V",
+        "A",
+        "W",
+        "VAR",
+        "VA",
+        "cosPhi"
+      ],
+      "subID": "prises1"
+    }
+  }
+]
