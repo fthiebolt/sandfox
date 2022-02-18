@@ -1,0 +1,230 @@
+$primary-background: #f8f9fa;
+$secondary-d-background: #091a23;
+$secondary-l-background: #194052;
+$primary-foreground: #ffffff;
+$secondary-foreground: #707070;
+$sidenav-width: 17rem;
+$header-height: 4rem;
+:root {
+  font-family: -apple-system, Roboto, BlinkMacSystemFont, "Segoe UI", Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  // font-size: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+$theme-colors: (
+  "primary": $secondary-l-background
+);
+$primary: $secondary-l-background;
+@import "~bootstrap/scss/bootstrap.scss";
+.btn-primary {
+  background-color: $primary !important;
+  transition: background 0.25s ease-out;
+  border-color: $secondary-d-background !important;
+  cursor: pointer !important;
+  &:hover {
+    background-color: $secondary-d-background !important;
+  }
+  &.active {
+    background-color: $secondary-d-background !important;
+  }
+}
+
+.btn-circle {
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+  #menu-btn {
+    display: none !important;
+  }
+}
+
+// default checkbox
+[type="checkbox"] {
+  appearance: none;
+  border: 1px solid rgb(49, 99, 122);
+  border-radius: 2px;
+  height: 1em;
+  width: 1em;
+  background-color: $primary-foreground;
+  outline: none;
+  cursor: pointer;
+  &:checked {
+    background-color: rgb(49, 99, 122);
+  }
+}
+
+// material toggle buttons
+$gray: #9a9999;
+.toggle {
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 20px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transform: translate3d(0, 0, 0);
+  &:before {
+    content: "";
+    position: relative;
+    top: 3px;
+    left: 3px;
+    width: 34px;
+    height: 14px;
+    display: block;
+    background: $gray;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+  }
+  span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: $primary-background;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba($gray, 0.5);
+    transition: all 0.2s ease;
+    &:before {
+      content: "";
+      position: absolute;
+      display: block;
+      margin: -18px;
+      width: 56px;
+      height: 56px;
+      background: rgba($secondary-l-background, 0.5);
+      border-radius: 50%;
+      transform: scale(0);
+      opacity: 1;
+      pointer-events: none;
+    }
+  }
+}
+
+.cbx:checked + .toggle {
+  &:before {
+    background: $secondary-l-background;
+  }
+  span {
+    background: #215a74;
+    transform: translateX(20px);
+    transition: all 0.2s cubic-bezier(0.8, 0.4, 0.3, 1.25),
+      background 0.15s ease;
+    box-shadow: 0 3px 8px rgba($secondary-l-background, 0.2);
+    &:before {
+      transform: scale(1);
+      opacity: 0;
+      transition: all 0.4s ease;
+    }
+  }
+}
+
+.toggle-success {
+  span:before {
+    background-color: green !important;
+  }
+  .cbx:checked + .toggle {
+    &:before {
+      background: green;
+    }
+    span {
+      background: rgb(6, 167, 6) !important;
+      transform: translateX(20px);
+      transition: all 0.2s cubic-bezier(0.8, 0.4, 0.3, 1.25),
+        background 0.15s ease;
+      box-shadow: 0 3px 8px rgba(green, 0.2) !important;
+      &:before {
+        transform: scale(1);
+        opacity: 0;
+        transition: all 0.4s ease;
+      }
+    }
+  }
+}
+
+.toggle-warning {
+  span:before {
+    background-color: rgb(183, 124, 16) !important;
+  }
+  .cbx:checked + .toggle {
+    &:before {
+      background: rgb(183, 124, 16);
+    }
+    span {
+      background: orange !important;
+      transform: translateX(20px);
+      transition: all 0.2s cubic-bezier(0.8, 0.4, 0.3, 1.25),
+        background 0.15s ease;
+      box-shadow: 0 3px 8px rgba(rgb(183, 124, 16), 0.2) !important;
+      &:before {
+        transform: scale(1);
+        opacity: 0;
+        transition: all 0.4s ease;
+      }
+    }
+  }
+}
+
+.toggle-error {
+  span:before {
+    background-color: rgb(142, 0, 0) !important;
+  }
+  .cbx:checked + .toggle {
+    &:before {
+      background: rgb(142, 0, 0);
+    }
+    span {
+      background: rgb(213, 0, 0) !important;
+      transform: translateX(20px);
+      transition: all 0.2s cubic-bezier(0.8, 0.4, 0.3, 1.25),
+        background 0.15s ease;
+      box-shadow: 0 3px 8px rgba(rgb(142, 0, 0), 0.2) !important;
+      &:before {
+        transform: scale(1);
+        opacity: 0;
+        transition: all 0.4s ease;
+      }
+    }
+  }
+}
+
+.leaflet-popup-content {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.custom-popup {
+  @media screen and (max-width: 1000px) {
+    padding: 0;
+    .leaflet-popup-content {
+      padding: 0;
+      background-color: $secondary-l-background;
+      border-radius: 14px;
+    }
+  }
+  .leaflet-popup-tip-container .leaflet-popup-tip,
+  .leaflet-popup-content-wrapper {
+    background-color: $secondary-l-background;
+  }
+  .leaflet-popup-close-button {
+    color: $primary-background !important;
+    top: 0.5em !important;
+    right: 1em !important;
+    font-size: 2em !important;
+    text-shadow: 0 0 15px rgba(30, 30, 30, 0.6) !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .leaflet-popup-content {
+    font-size: 10px;
+    div {
+      width: fit-content !important;
+    }
+  }
+}
